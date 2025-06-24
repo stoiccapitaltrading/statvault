@@ -35,5 +35,6 @@ inject_sidebar_logo()
 st.set_page_config(page_title="AlphaSta Dashboard", layout="wide")
 # Add your main dashboard code below
 
-st.title("Welcome to AlphaStats")
+st.set_page_config(page_title="AlphaStats Dashboard", layout="wide")
+st.title("Welcome to StatVault")
 st.markdown("Select a section from the sidebar to begin.")
